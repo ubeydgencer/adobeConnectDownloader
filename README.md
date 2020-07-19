@@ -61,5 +61,6 @@ file '/home/2.flv'
 ```
 Ayni pathde asagidaki komutu calistirdigimizda tek parca ve sesli bir video elde etmis oluyoruz.
 ```
-ffmpeg -f concat -i input.txt -c copy output.flv
+ffmpeg -f concat -safe 0 -i input.txt -c copy output.flv
+
 ```
