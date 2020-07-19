@@ -54,7 +54,7 @@ ffmpeg -i cameraVoip_3_16.flv -i screenshare_2_14.flv -c copy -map 0:a:0 -map 1:
 ```
 Daha sonra birlestirdigimiz ses ve goruntu dosyalarini tek bir dosya haline getirmek icin yine ffmpeg araciligiyla kolaylikla halledebiliriz.
 
-Ismini file.txt olarak asagidaki gibi bir txt dosyasi olusturuyoruz.
+Ismini ```file.txt``` olarak asagidaki gibi bir txt dosyasi olusturuyoruz.
 ```
 file '/home/1.flv'
 file '/home/2.flv'
