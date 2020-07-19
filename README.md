@@ -1,6 +1,6 @@
 # adobeConnectDownloader
 
-Indirmek istenilen URL'nin ardina /output/filename.zip?download=zip ekledikten sonra zip olarak indirilebilir.
+Indirmek istenilen URL'nin ardina ```/output/filename.zip?download=zip``` ekledikten sonra zip olarak indirilebilir.
 ```
 Directory of C:\Users\[...]\p6vwxp2d0c2f
 
